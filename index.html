@@ -9,8 +9,8 @@
   <body>
     <h1>bouncing balls</h1>
     <div class = "form">
-        <input id="ballField" class = "ballField" type="text">
-        <input type ="submit" value="Update # of Balls" class="ballSubmit">
+        <input id="ballField" placeholder= "# of Balls"class = "ballField" type="text" onkeypress = "if (event.keyCode === 13){refreshBalls()}">
+        <input type ="submit" value="Go" class="ballSubmit">
     </div>
     <canvas></canvas>
 
